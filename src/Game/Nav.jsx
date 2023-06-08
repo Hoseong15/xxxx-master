@@ -56,7 +56,7 @@ function Nav() {
       setPlayIndex(playIndex + 1);
     }
   }
-
+  //////
 
   // 이미지 클릭했을때 영상이 사라졌다가 다시 나타나게 하는 부분 //
   // showvideo 상태 toggle
