@@ -5,7 +5,7 @@ import { faArrowRight, faArrowLeft, faXmark, faL } from '@fortawesome/free-solid
 import { useRef, useEffect } from 'react';
 import ReactPlayer from 'react-player';
 import { delay, motion } from 'framer-motion';
-import Nav1 from './Nav1.css'
+import Nav1 from './Main.css'
 import img from './갓오브워 라그나로크.jpg'
 import img1 from './라스트오브어스.jpg'
 import img2 from './언챠티드.jpg'
