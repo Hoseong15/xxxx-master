@@ -9,8 +9,8 @@
   justify-content: center;
   background-color: rgba(18, 19, 20 );
   transition: all 300ms ease-in-out;
-  /* margin-top: 130px; */
 }
+
 .game-wrapper button {
   background: none;
   border: none;
@@ -152,10 +152,10 @@
 }
 
 .react-player{
+  margin-top: 10px;
   background: #232526;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  margin-top: 168px;
 }
 
 .react-player video {
@@ -177,7 +177,7 @@
   top: 0;
   left: 0;
   width: 15%;
-  height: 55%;
+  height: 35%;
   color: #fff;
   padding: 20px;
   display: flex;

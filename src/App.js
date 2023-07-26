@@ -11,7 +11,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 function App() {
   return (
     <div className="App">
-      {/* <Nav/> */}
       <Routes>
         <Route path='/' element={<Main/>} />
       </Routes>

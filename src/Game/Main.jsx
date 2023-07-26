@@ -1,11 +1,10 @@
 /* eslint-disable */
-import React, { useCallback, useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faArrowLeft, faXmark, faL } from '@fortawesome/free-solid-svg-icons';
-import { useRef, useEffect } from 'react';
 import ReactPlayer from 'react-player';
-import { delay, motion } from 'framer-motion';
-import Nav1 from './Main.css'
+import {motion } from 'framer-motion';
+import Main from './Main.css'
 import img from './갓오브워 라그나로크.jpg'
 import img1 from './라스트오브어스.jpg'
 import img2 from './언챠티드.jpg'
@@ -303,11 +302,6 @@ function Nav() {
       <section className='game-ck'>
         {!showVideo ? (
           <div className='game-wrapper'>
-            {/* <button onClick={() => handleIconClick('prev')}>
-              <i className='icon-prev' />
-              <span className="sr-only">Previous</span>
-            </button> */}
-
               {imageList.map((item) => (
                 <div  className='game-btn'>
                   <img className='game-img' src={item.src} alt="" onClick={() =>handleClick(item.id)} />
@@ -317,14 +311,6 @@ function Nav() {
                   <div className='game-btn-text3'>{item.content3}</div>
                 </div>
               ))}
-
-            {/* <div className='icon-wrapper'>
-              <button onClick={() => handleIconClick('next')}>
-                <i className='icon-next' />
-                <span className="sr-only">Next</span>
-              </button>
-            </div> */}
-
           </div>
         ) : (
           <div className='player-wrapper'>
